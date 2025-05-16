@@ -24,7 +24,7 @@ body{
 
 .container{
     width: 100%;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -39,7 +39,7 @@ body{
 
 
 header {
-    padding: 20px 0px;
+    padding: 30px 0px;
 }
 
 header nav a{
@@ -47,7 +47,63 @@ header nav a{
     margin: 0px 10px;
 }
 
+
+
 header nav a:hover{
     color:var(--cor-branco);
 }
 
+.cor{
+    color: var(--cor-branco);
+}
+
+.baixar{
+    border-radius: 10px;
+    border-color: var(--cor-branco);
+    background-color: var(--cor-branco);
+    color: var(--cor-preto-);
+    padding: 15px;
+}
+
+.centro{
+    display: flex;
+    justify-self: center;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+.cantar{
+    display: flex;
+    justify-content: center;
+    color: var(--cor-cinza);
+    font-size: 30px;
+}
+
+.alinhar-links{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 20px;
+}
+
+.plano{
+    border-radius: 10px;
+    border: 2px solid var(--cor-branco);
+    padding: 15px;
+    color: var(--cor-branco);
+    
+    
+    
+}
+
+.baixar-link {
+    border-radius: 10px;
+    border-color: var(--cor-branco);
+    background-color: var(--cor-branco);
+    color: var(--cor-preto-);
+    padding: 15px;}
